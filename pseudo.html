@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+  /* :hover pseudo-class */
+.hover-text:hover {
+  color: red; /* When the element is hovered, the text turns red */
+}
+
+/* :link and :visited pseudo-classes */
+a.link:link {
+  color: rgb(16, 16, 131); /* Unvisited link */
+}
+
+a.link:visited {
+  color: rgb(17, 17, 17); /* Visited link */
+}
+
+/* :active pseudo-class */
+a.link:active {
+  color: rgb(0, 0, 0); /* When the link is clicked */
+}
+
+/* :nth-child pseudo-class */
+ul li:nth-child(2) {
+  color: rgb(233, 159, 21); /* The second list item will be orange */
+}
+
+/* :first-child and :last-child pseudo-classes */
+ul li:first-child {
+  font-weight: bold; /* The first list item is bold */
+}
+
+ul li:last-child {
+  text-decoration: underline; /* The last list item is underlined */
+}
+
+/* :focus pseudo-class */
+input:focus {
+  background-color: yellow; /* When the input field is focused */
+}
+</style>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo-Classes Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Welcome to Pseudo-Classes</h1>
+  <a href="#" class="link">Click Me</a>
+  <a href="#" class="link">Click Me 2</a>
+
+  <p class="hover-text">Hover over me to change color!</p>
+
+  <ul>
+    <li class="list-item">Item 1</li>
+    <li class="list-item">Item 2</li>
+    <li class="list-item">Item 3</li>
+  </ul>
+
+</body>
+</html>
